@@ -1,6 +1,12 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: white; /* Change background color to white */
+    /*background-color: rgb(62, 19, 19);      Change background color  */
+    /* background-color: #FFFFFF; */
+    /* background-image: linear-gradient(180deg, #FFFFFF 0%, #FF0000 50%, #f2910c 100%); */
+    background-image: url('../images/heatblast.jpg');  /*use an image as background  */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,7 +18,8 @@ body {
     width: 300px;
     padding: 20px;
     border-radius: 10px;
-    background-color: #333;
+    background-image: url('../images/heatblast1.gif');
+    background-color: #333;                          /* defualt color, comment out image to see origanal   */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
@@ -23,6 +30,7 @@ input[type="text"] {
     font-size: 20px;
     padding: 5px;
     box-sizing: border-box;
+    
 }
 
 .button {
@@ -32,7 +40,8 @@ input[type="text"] {
     font-size: 20px;
     border: none;
     border-radius: 5px;
-    background-color: #007bff;
+    /* background-color: #007bff; */
+    background-color: #de520c;
     color: #fff;
     cursor: pointer;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
@@ -43,7 +52,8 @@ input[type="text"] {
 }
 
 .button:hover {
-    background-color: #0056b3;
+    background-color: #e5bd0c;
+    /* background-color: #0056b3; */
 }
 
 .button:active {
